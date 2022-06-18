@@ -1,0 +1,262 @@
+@media only screen and (max-width: 1024px) {
+    /* Header Logo */
+    .nav-bar__logo {
+        margin-right: 20%;
+    }
+
+    .nav-bar__logo-img {
+        width: 30px;
+    }
+
+    /* Content Search */
+    .content-search {
+        --position-top: 60%;
+        --height-search-header: 106px;
+    }
+
+    .content-search__btn {
+        padding: 10px 28px;
+    }
+
+    /* Question */
+    .content-question {
+        padding: 60px;
+    }
+
+    .content-question__header {
+        font-size: 6.8rem;
+    }
+}
+
+@media only screen and (min-width: 740px) and (max-width: 1023px) {
+    /* Header */
+    .heading {
+        --height-header: 306px;
+    }
+
+    /* Nav Bar List */
+    .nav-bar {
+        flex-wrap: wrap;
+    }
+
+    .nav-bar__wrapper--last-order {
+        order: 1;
+        margin: 0 auto;
+    }
+
+    /* Search Bar */
+    .search-bar__item {
+        min-width: 134px;
+    }
+
+    .search-bar__input {
+        min-width: 164px;
+    }
+
+    /* Calendar */
+    .calendar__list {
+        width: 344px;
+        overflow-x: hidden;
+    }
+
+    .calendar__content {
+        padding: 0;
+    }
+
+    /* Flexible Trip */
+    .flexible-trip__list {
+        width: 620px;
+    }
+
+    /* Content Search */
+    .content-search {
+        --position-top: 58%;
+        --height-search-header: 84px;
+    }
+
+    .content-search__header {
+        font-size: 3.2rem;
+        line-height: 1;
+    }
+
+    .content-search__btn {
+        padding: 8px 26px;
+    }
+
+    .content-search__btn span {
+        font-size: 1.4rem;
+        line-height: 22px;
+    }
+
+    /* Experience */
+    .experience__about {
+        padding: 32px;
+    }
+
+    .experience__header {
+        font-size: 2.6rem;
+    }
+    /* Question */
+    .content-question {
+        padding: 40px;
+    }
+
+    .content-question__header {
+        font-size: 5.2rem;
+    }
+
+    /* Footer */
+    .footer__list {
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 24px;
+        margin: 0 -12px 24px;
+        border-bottom: 1px solid #dddddd;
+    }
+
+    .footer__item {
+        flex: 0 0 33.33333%;
+        max-width: 33.33333%;
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+
+    /* Footer Bottom */
+    .footer__bottom {
+        padding-top: 0;
+        margin-top: 0;
+        border-top: none;
+    }
+}
+
+@media only screen and (max-width: 739px) {
+    /* Common */
+    .last-order {
+        order: 1;
+    }
+
+    /* Header */
+    .heading {
+        --height-header: 60px;
+        --height-link-header: 50px;
+        --height-nav-bar: 0;
+        --height-search: 0;
+    }
+
+    .hidden-mobile {
+        display: none;
+    }
+
+    /* Content Search */
+    .content-search {
+        --position-top: 60%;
+        --height-search-header: 80px;
+    }
+
+    .content-search__img {
+        background-position: top;
+        padding-top: 108%;
+    }
+
+    .content-search__header {
+        font-size: 1.8rem;
+        line-height: 1;
+    }
+
+    .content-search__btn {
+        padding: 8px 22px;
+    }
+
+    .content-search__btn span {
+        font-size: 1.2rem;
+        line-height: 16px;
+    }
+
+    /* Content */
+    .content-section {
+        overflow: hidden;
+    }
+
+    .content-section__btn {
+        padding: 10px 20px;
+        font-size: 1.6rem;
+    }
+
+    .content-section__img {
+        background-position: top;
+        padding-top: 108%;
+    }
+
+    /* Experience */
+    .experience__about {
+        padding: 32px;
+    }
+
+    .experience__header {
+        font-size: 2.8rem;
+        line-height: 1.2;
+    }
+
+    /* Question */
+    .content-question {
+        padding: 20px;
+    }
+
+    .content-question__header {
+        font-size: 2rem;
+        padding-bottom: 20px;
+    }
+
+    /* Footer */
+    .footer {
+        overflow: hidden;
+    }
+
+    .footer__list {
+        text-align: center;
+        padding-bottom: 24px;
+        margin: 0 12px 24px;
+        border-bottom: 1px solid #dddddd;
+    }
+
+    .footer__heading {
+        text-align: center;
+    }
+
+    /* Footer Bottom */
+    .footer__bottom {
+        padding-top: 0;
+        margin-top: 0;
+        border-top: none;
+    }
+
+    .footer-copyright {
+        text-align: center;
+        padding-top: 6px;
+    }
+
+    .footer-info {
+        flex-direction: column;
+    }
+
+    .footer-infor__item {
+        padding: 12px;
+        text-align: center;
+    }
+
+    .footer-infor__item span {
+        display: none;
+    }
+
+    .footer__bottom-wrapper {
+        flex-direction: column;
+    }
+
+    .footer-options {
+        margin: 0 auto;
+    }
+
+    .footer-socials {
+        display: none;
+    }
+}

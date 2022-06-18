@@ -1,0 +1,74 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --primary-color: #ff385c;
+    --text-color: #222;
+    --shadow-color: rgba(0, 0, 0, 0.08);
+
+    --height-header: 225px;
+    --height-link-header: 50px;
+    --height-nav-bar: 80px;
+    --height-search: calc(var(--height-header) - var(--height-link-header) - var(--height-nav-bar));
+}
+
+/* List */
+.list {
+    list-style: none;
+}
+
+/* Button */
+.btn {
+    display: block;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+/* Sub Navigation */
+.nav2 {
+    position: absolute;
+    top: 100%;
+    display: none;
+    cursor: default;
+}
+
+.nav2__wrapper {
+    background-color: var(--white-color);
+}
+
+/* Separate */
+.separate {
+    height: 1px;
+    width: 100%;
+    margin: 8px 0;
+    background-color: #ccc;
+}
+
+/* Animation */
+@keyframes growth {
+    from {
+        opacity: 0;
+        transform: scale(0);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Modal */
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+}
+
+.modal__wrapper {
+    margin: auto;
+}
